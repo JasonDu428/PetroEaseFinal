@@ -121,13 +121,13 @@
        <div class="row">
         <div class ="col-lg-4 col-md-4 col-sm-4">
           <div class="panel panel-default ">
-            <div class="panel-body text-center">
+            <div class="panel-body text-center" >
               <span class="fa-stack fa-4x">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-briefcase fa-stack-1x"></i>
               </span>
-              <h3> Data Management </h3>
-              <p> Manage all of your field data </p>
+              <h3 id='text-underline'> Data Management </h3>
+              <p > Manage all of your field data </p>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa fa-money fa-stack-1x"></i>
               </span>
-              <h3> Cost Control </h3>
+              <h3 id='text-underline'> Cost Control </h3>
               <p> Understand your cost structure </p>
             </div>
           </div>
@@ -152,7 +152,7 @@
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-bar-chart fa-stack-1x"></i>
               </span>
-              <h3> Data Analytics </h3>
+              <h3 id='text-underline'> Data Analytics </h3>
               <p> Make data driven decisions </p>
             </div>
           </div>
@@ -166,7 +166,7 @@
 <!-- start of integration link -->
 <div class="container">
   <div class="jumbotron" id="inte-link">  
-    <img src="media/arrowfinal.png" alt="arrow integration image" class="img-responsive">
+    <img src="media/arrowfinal3.png" alt="arrow integration image" class="img-responsive">
 
 
   </div>
@@ -205,6 +205,7 @@
           </div>
         </div>
       </div>
+      <hr class="visible-sm visible-xs" id="hr-control">
 
       <div class="row">
         <div class ="col-lg-4 col-md-4 col-sm-4">
@@ -231,6 +232,7 @@
           </div>
         </div>
       </div>
+      <hr class="visible-sm visible-xs" id="hr-control">
 
       <div class="row">
         <div class ="col-lg-4 col-md-4 col-sm-4">
@@ -267,70 +269,79 @@
 
 <!-- detailed breakdown section -->
  <div class="container" id="breakdown">
-      <section>
+ <div class="panel panel-default ">
+      <section id='section-position'>
         <div class="page-header" >
         <h2 class="text-center" style="font-weight:bold"> Detailed Breakdown <br> <small> Detailed description on app features</small></h2>
        </div>
        <!-- data management -->
-       <div class="row">
-         <div class="col-sm-8">
-          <h3 class="text-center">Data Management</h3>
-          <ul class="list-unstyled">
+
+<div class="media" id='media-position'>
+    <span class="media-left">
+              <span class="fa-stack fa-5x">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-briefcase fa-stack-1x"></i>
+              </span>
+    </span>
+    <div class="media-body">
+        <h3 class="media-heading text-center">Data Management</h3>
+        <ul class="list-unstyled" style="line-height: 1.6">
           <ul>
              <li>Stores all of your field data (production and pressure) </li>
              <li>Keeps track all of the things that you are doing to your well</li>
              <li>Present all of our things in a graphical way</li>
              <li>Easy for management to see where the production is</li>
           <ul>
-          </ul>
-         </div>
-         <div class="col-sm-4">
-              <span class="fa-stack fa-5x">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-briefcase fa-stack-1x"></i>
-              </span>
-         </div>
-       </div>
-       <hr>
-       <!-- Cost control -->
-       <div class="row">
-         <div class="col-sm-4">
+    </div>
+</div>
+<hr style="width: 50%">
+
+
+ <!-- Cost control -->
+<div class="media">
+    <div class="media-body" style="width: 430px">
+        <h3 class="media-heading text-center">Cost Control</h3>
+        <ul class="list-unstyled" style="line-height: 1.6 width: 20%">
+          <ul>
+             <li>Stores all of your field data (production and pressure) </li>
+             <li>Keeps track all of the things that you are doing to your well</li>
+             <li>Present all of our things in a graphical way</li>
+             <li>Easy for management to see where the production is</li>
+          <ul>
+    </div>
+    <span class="media-right">
               <span class="fa-stack fa-5x">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa fa-money fa-stack-1x"></i>
               </span>
-         </div>
-         <div class="col-sm-8">
-          <h3 class="text-center">Cost Control</h3>
-          <li>Stores all of your field data (production and pressure) </li>
-             <li>Keeps track all of the things that you are doing to your well</li>
-             <li>Present all of our things in a graphical way</li>
-             <li>Easy for management to see where the production is</li>
-         </div>
-       </div>
-       <hr>
+    </span>
+</div>
+<hr style="width: 50%">
 
-       <!-- Data analytics -->
-        <div class="row">
-        <div class="col-sm-8">
-          <h3 class="text-center">Data Analytics</h3>
-          <li>Stores all of your field data (production and pressure) </li>
-             <li>Keeps track all of the things that you are doing to your well</li>
-             <li>Present all of our things in a graphical way</li>
-             <li>Easy for management to see where the production is</li>
-         </div>
-         <div class="col-sm-4">
+
+  <!-- Data analytics -->
+  <div class="media">
+    <span class="media-left">
               <span class="fa-stack fa-5x">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-bar-chart fa-stack-1x"></i>
               </span>
-         </div>
-       </div>
-
-
-
-       <hr>
+    </span>
+    <div class="media-body">
+        <h3 class="media-heading text-center">Data Analytics</h3>
+        <ul class="list-unstyled" style="line-height: 1.6">
+          <ul>
+             <li>Stores all of your field data (production and pressure) </li>
+             <li>Keeps track all of the things that you are doing to your well</li>
+             <li>Present all of our things in a graphical way</li>
+             <li>Easy for management to see where the production is</li>
+          </ul>
+    </div>
+</div>
+      
+       
        </section>
+       </div>
        </div>
 <!-- end of features breakdown -->
 
@@ -391,6 +402,7 @@
         <p>Business & Petroleum Engineering</p>
         <p>(626) 202-8428</p>
         <p>Jasondu428@gmail.com</p>
+        <hr class="visible-sm visible-xs" id="hr-control">
         </div>
 
         <div class="col-md-4">
@@ -398,6 +410,7 @@
         <p>Product & Application Development</p>
         <p>(626) 500-7265</p>
         <p>Alexssung@gmail.com</p>
+        <hr class="visible-sm visible-xs" id="hr-control">
         </div>
 
       <div class="col-md-4">
@@ -408,14 +421,15 @@
       <div class="form-group">
         
         <input type="text" class="form-control" id="subscription" placeholder="Your name"></input>
-        </div>
+      </div>
 
         <div class="form-group">
         
         <input type="text" class="form-control" id="email" placeholder="Enter your Email"></input>
         </div>
-        <button type="submit" class="btn btn-primary">Subscribe</button>
-        </form>
+
+        <button type="submit" class="btn btn-primary">Subscribe</button>        
+      </form>
         </div>
 
 
