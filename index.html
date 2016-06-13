@@ -25,13 +25,14 @@
     <![endif]-->
   </head>
     <style>
-    body{
+    /*need it if the navbar is fixed*/
+   /* body{
       padding-top: 40px;
-    }
+    }*/
     </style>
   <body data-spy="scroll" data-target="#my-navbar">
     <!-- Navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar" >
+    <nav class="navbar navbar-inverse navbar-static-top" id="my-navbar" >
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle= "collapse" data-target="#navbar-collapse">
@@ -44,7 +45,7 @@
         </div> <!-- Navbar Header -->
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <a href="" class="btn btn-info navbar-btn navbar-right" id="login-in">Login In </a>
-          <ul class="nav navbar-nav" id="nav-list">
+          <ul class="nav navbar-nav " id="nav-list">
 
             <li> <a href = "#features"> <i class="fa fa-line-chart fa-lg"></i><br class="hidden-xs">Features</a> </li>
 
@@ -120,42 +121,48 @@
        <!-- start of panel text -->
        <div class="row">
         <div class ="col-lg-4 col-md-4 col-sm-4">
-          <div class="panel panel-default ">
+        <a href = "#datamanagement" style="text-decoration:none">
+          <div class="panel panel-default" id='text-underline'>
             <div class="panel-body text-center" >
               <span class="fa-stack fa-4x">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-briefcase fa-stack-1x"></i>
               </span>
-              <h3 id='text-underline'> Data Management </h3>
+              <h3 > Data Management </h3>
               <p > Manage all of your field data </p>
             </div>
           </div>
+          </a>
         </div>
 
         <div class ="col-lg-4 col-md-4 col-sm-4">
-          <div class="panel panel-default ">
+        <a href = "#costcontrol" style="text-decoration:none">
+          <div class="panel panel-default " id='text-underline'>
             <div class="panel-body text-center">
               <span class="fa-stack fa-4x">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa fa-money fa-stack-1x"></i>
               </span>
-              <h3 id='text-underline'> Cost Control </h3>
+              <h3 > Cost Control </h3>
               <p> Understand your cost structure </p>
             </div>
           </div>
+          </a>
         </div>
 
         <div class ="col-lg-4 col-md-4 col-sm-4">
-          <div class="panel panel-default text-center">
+        <a href = "#dataanalysis" style="text-decoration:none">
+          <div class="panel panel-default text-center" id='text-underline'>
             <div class="panel-body">
               <span class="fa-stack fa-4x">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-bar-chart fa-stack-1x"></i>
               </span>
-              <h3 id='text-underline'> Data Analytics </h3>
+              <h3> Data Analytics </h3>
               <p> Make data driven decisions </p>
             </div>
           </div>
+          </a>
         </div>
 
       </div>
@@ -283,7 +290,7 @@
               <i class="fa fa-briefcase fa-stack-1x"></i>
               </span>
     </span>
-    <div class="media-body">
+    <div class="media-body" id = "datamanagement">
         <h3 class="media-heading text-center">Data Management</h3>
         <ul class="list-unstyled" style="line-height: 1.6">
           <ul>
@@ -299,7 +306,7 @@
 
  <!-- Cost control -->
 <div class="media">
-    <div class="media-body" style="width: 430px">
+    <div class="media-body" style="width: 430px" id = "costcontrol">
         <h3 class="media-heading text-center">Cost Control</h3>
         <ul class="list-unstyled" style="line-height: 1.6 width: 20%">
           <ul>
@@ -327,7 +334,7 @@
               <i class="fa fa-bar-chart fa-stack-1x"></i>
               </span>
     </span>
-    <div class="media-body">
+    <div class="media-body" id = "dataanalysis">
         <h3 class="media-heading text-center">Data Analytics</h3>
         <ul class="list-unstyled" style="line-height: 1.6">
           <ul>

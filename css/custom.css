@@ -1,7 +1,6 @@
 body{
 	font-size: 16px;
 	font-family: Ascender-serif, oxygen;
-
 }
 
 
@@ -50,11 +49,16 @@ body{
 #nav-list a{
 	text-align: center;
 }
+
+
 /*nav bar border color*/
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid white;
 }
-
+/*need this when navbar is not fixed*/
+#my-navbar{
+	margin-bottom: 0px;
+}
 /*shorter the hr break in footer and integratition*/
 #hr-control{
 	width:50%;
@@ -67,15 +71,13 @@ body{
 }
 
 /*text underline*/
+#text-underline:hover{
+    color: black;
+    border-color: #3498db;
+}
 
-#text-underline:after{
-    content:' ';
-    display:block;
-    border:1px solid;
-    border-color: #333;
-    width: 30%;
-    margin: 2px auto 0 auto;
-
+a {
+	color: black;
 }
 
 
@@ -136,8 +138,8 @@ body{
 /*logo setting*/
 
 #logo{
-	font-size: 2.3vw;
-	padding-top: 22px;
+	font-size: 2.8vw;
+	padding-top: 26px;
 }
 
 /*login setting*/
@@ -149,4 +151,9 @@ body{
 /*fix subsription margin top*/
 #subscription{
 	margin-top: 0px;
+}
+
+#nav-list{
+
+	font-size: 1.4vw;
 }
