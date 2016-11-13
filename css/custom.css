@@ -118,11 +118,11 @@ a {
 
 /*change collapse dropdown text size*/
 #navbar-collapse a{
-	font-size: 1.2em;
+	font-size: 1em;
 }
 /*change collapse dropdown glyph size*/
 #navbar-collapse a i{
-	font-size: 1em;
+/*	font-size: 1em;*/
 	/*glyphs are too close to text*/
 	margin-right: 5px;
 	margin-bottom: 5px;
